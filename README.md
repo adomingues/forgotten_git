@@ -17,3 +17,28 @@ Source: https://githowto.com/undoing_local_changes
 git checkout c5f567 -- file1/to/restore file2/to/restore
 ```
 Source: https://stackoverflow.com/a/215731/1274242
+
+## Merging and branching
+
+1. create new branch
+
+```bash
+git checkout -b hotfix
+```
+
+2. Do something and commit.
+
+3. change to master and merge
+
+```bash
+git checkout master
+git merge hotfix
+```
+
+4. (optional) Delete branch
+
+```bash
+git branch -d hotfix
+```
+
+Source: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
