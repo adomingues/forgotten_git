@@ -42,3 +42,11 @@ git branch -d hotfix
 ```
 
 Source: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+## create a branch from a specific commit
+
+This is helful to to debbug or test changes that occoured at a particular commit which is well in the past.
+
+```bash
+git checkout -b fread_commit bef92a83
+```
