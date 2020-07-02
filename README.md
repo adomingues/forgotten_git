@@ -11,6 +11,14 @@ git checkout hello.html
 Source: https://githowto.com/undoing_local_changes
 
 
+## create branch with uncommited changes
+
+```bash
+git checkout -b new_branch
+```
+Source: https://stackoverflow.com/questions/1394797/move-existing-uncommitted-work-to-a-new-branch-in-git
+
+
 ## How can I reset or revert a file to a specific revision?
 
 ```bash
